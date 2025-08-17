@@ -6,64 +6,64 @@ const certifications = [
       "title": "Web Development Using AI Tools",
       "organization": "Siddhartha Institute of Technology & Sciences",
       "issueDate": "January 2023",
-      "image": "./imgs/MeritCertificate.jpg",
+      "image": "imgs/MeritCertificate.jpg",
     description: "Merit Certificate for winning National Level Three Days Hackathon"
   },
   {
     title: "Salesforce AI Associate",
     organization: "Salesforce Trailhead",
     issueDate: "December 2024",
-    image: "/imgs/Salesforce.jpg",
-    badge: "/imgs/Badge.png",
+    image: "imgs/Salesforce.jpg",
+    badge: "imgs/Badge.png",
     description: "Certified AI Associate specializing in Salesforce AI implementations"
   },
   {
     "title": "Artificial Intelligence Fundamental",
     "organization": "IBM",
     "issueDate": "march 04, 2025",
-    "image": "./imgs/IBM_AI.jpg",
+    "image": "imgs/IBM_AI.jpg",
     "description": "I am proud to announce that I have received the Artificial Intelligence Fundamentals certification from IBM SkillsBuild. 🎓🤖."  
   },
   {
       "title": "Young Python Professional",
       "organization": "Infosys Springboard",
       "issueDate": "July 29, 2024",
-      "image": "./imgs/PythonCertificate.jpg",
+      "image": "imgs/PythonCertificate.jpg",
       "description": "Successfully completed the 'Young Python Professional' program by Infosys Springboard, demonstrating expertise in Python programming and problem-solving."  
   },
   {
     "title": "Principles of Generative AI Certification",
     "organization": "Infosys Springboard",
     "issueDate": "August 20, 2024",
-    "image": "/imgs/GenerativeAI.jpg",
+    "image": "imgs/GenerativeAI.jpg",
     "description": "Successfully completed the Principles of Generative AI Certification from Infosys Springboard."
   },
   {
     "title": "Introduction to Artificial Intelligence",
     "organization": "Infosys Springboard",
     "issueDate": "August 13, 2024",
-    "image": "/imgs/Introductin_to_AI.jpg",
+    "image": "imgs/Introductin_to_AI.jpg",
     "description": "Successfully completed the Introduction to Artificial Intelligence course from Infosys Springboard."
   },
   {
     "title": "Introduction to Data Science",
     "organization": "Infosys Springboard",
     "issueDate": "August 6, 2024",
-    "image": "/imgs/DataScience.jpg",
+    "image": "imgs/DataScience.jpg",
     "description": "Successfully completed the Introduction to Data Science course, covering foundational concepts in data science and analytics."
   },
   {
     "title": "Introduction to Deep Learning",
     "organization": "Infosys Springboard",
     "issueDate": "August 19, 2024",
-    "image": "/imgs/DeepLearning.jpg",
+    "image": "imgs/DeepLearning.jpg",
     "description": "Successfully completed the course Introduction to Deep Learning."
   },
   {
     "title": "Introduction to Natural Language Processing",
     "organization": "Infosys Springboard",
     "issueDate": "August 13, 2024",
-    "image": "/imgs/NaturalLaguageProcessing.jpg",
+    "image": "imgs/NaturalLaguageProcessing.jpg",
     "description": "Successfully completed the course Introduction to Natural Language Processing."
   }
 ];
