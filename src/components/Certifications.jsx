@@ -6,7 +6,7 @@ const certifications = [
       "title": "Web Development Using AI Tools",
       "organization": "Siddhartha Institute of Technology & Sciences",
       "issueDate": "January 2023",
-      "image": "imgs/MeritCertificate.jpg",
+      "image": "PrasannaKumarPortifolio/imgs/MeritCertificate.jpg",
     description: "Merit Certificate for winning National Level Three Days Hackathon"
   },
   {
