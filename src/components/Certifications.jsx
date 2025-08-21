@@ -14,7 +14,7 @@ const certifications = [
     organization: "Salesforce Trailhead",
     issueDate: "December 2024",
     image: "/imgs/Salesforce.jpg",
-    badge: "public/imgs/Badge.png",
+    badge: "/imgs/Badge.png",
     description: "Certified AI Associate specializing in Salesforce AI implementations"
   },
   {
