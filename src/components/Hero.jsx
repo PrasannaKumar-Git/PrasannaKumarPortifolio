@@ -102,7 +102,7 @@ const Hero = () => {
           <div className="relative">
             <div className="w-72 h-72 mx-auto rounded-full overflow-hidden border-4 border-purple-500/20 relative">
               <img
-                src="\imgs\\Picsart_25-02-04_00-57-24-857.jpg"
+                src="/imgs/Picsart_25-02-04_00-57-24-857.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
