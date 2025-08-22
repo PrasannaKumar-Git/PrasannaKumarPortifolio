@@ -1,12 +1,15 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
+// No import needed for the image when it's in the 'public' folder
+
 const Hero = () => {
   const containerRef = useRef(null);
   const textRef = useRef(null);
   const imageRef = useRef(null);
 
   useEffect(() => {
+    // Your useEffect logic remains the same
     const container = containerRef.current;
     const text = textRef.current;
     const image = imageRef.current;
@@ -16,21 +19,8 @@ const Hero = () => {
       const x = (e.clientX - left) / width - 0.5;
       const y = (e.clientY - top) / height - 0.5;
 
-      // 3D text rotation
-      text.style.transform = `
-        perspective(1000px)
-        rotateY(${x * 10}deg)
-        rotateX(${-y * 10}deg)
-        translateZ(50px)
-      `;
-
-      // 3D image rotation
-      image.style.transform = `
-        perspective(1000px)
-        rotateY(${x * 15}deg)
-        rotateX(${-y * 15}deg)
-        translateZ(100px)
-      `;
+      text.style.transform = `perspective(1000px) rotateY(${x * 10}deg) rotateX(${-y * 10}deg) translateZ(50px)`;
+      image.style.transform = `perspective(1000px) rotateY(${x * 15}deg) rotateX(${-y * 15}deg) translateZ(100px)`;
     };
 
     const handleMouseLeave = () => {
@@ -59,6 +49,7 @@ const Hero = () => {
           className="transition-transform duration-300 ease-out"
           style={{ transformStyle: 'preserve-3d' }}
         >
+          {/* Your text and button code remains the same */}
           <motion.div 
             className="mb-6"
             initial={{ opacity: 0, y: 20 }}
@@ -102,16 +93,14 @@ const Hero = () => {
           <div className="relative">
             <div className="w-72 h-72 mx-auto rounded-full overflow-hidden border-4 border-purple-500/20 relative">
               <img
-                src="/imgs/Picsart_25-02-04_00-57-24-857.jpg"
+                src="imgs\Picsart_25-02-04_00-57-24-857.jpg" // 👈 Use a simple string path
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
             <motion.div
               className="absolute inset-0"
-              animate={{
-                rotate: 360
-              }}
+              animate={{ rotate: 360 }}
               transition={{
                 duration: 20,
                 repeat: Infinity,
